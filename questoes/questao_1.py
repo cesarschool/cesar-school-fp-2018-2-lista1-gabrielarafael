@@ -11,7 +11,12 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 1")
+    salary = float(input("Type your salary: "))
+    payrise = float(input("Type the pay rise percentage: "))
+
+    newSalary = salary + (salary*(payrise/100))
+
+    print("Your pay rise was {}% and your new salary is ${}".format(payrise, newSalary))
     
 
 
