@@ -16,7 +16,7 @@ def main():
 
     salarionovo = salario + (salario*(porcentagem/100))
 
-    print("Seu aumento salarial foi de {}% e seu novo salário é".format(porcentagem, salarionovo))
+    print("Seu aumento salarial foi de {}% e seu novo salário é {}".format(porcentagem, salarionovo))
     
 
 
