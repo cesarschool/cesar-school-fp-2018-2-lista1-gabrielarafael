@@ -11,12 +11,12 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    salary = float(input("Type your salary: "))
-    payrise = float(input("Type the pay rise percentage: "))
+    salario = float(input("Coloque seu salario: "))
+    porcentagem = float(input("Digite a porcentagem de aumento salarial: "))
 
-    newSalary = salary + (salary*(payrise/100))
+    salarionovo = salario + (salario*(porcentagem/100))
 
-    print("Your pay rise was {}% and your new salary is ${}".format(payrise, newSalary))
+    print("Seu aumento salarial foi de {}% e seu novo salário é".format(porcentagem, salarionovo))
     
 
 
