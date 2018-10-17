@@ -11,7 +11,12 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 2")
+    tempCelsius = int(input("Digite a temperatura em Celsius"))
+
+    tempFahrenheit = tempCelsius * 9/5 + 32
+
+    print("a temperatura em fahrenheit é {} graus".format(tempFahrenheit))
+    
 
 
 
