@@ -12,7 +12,12 @@
 ##
 def main():
     print("questao 4")
+    dias = int(input("Quantos dias passou com o carro alugado?\n"))
+    km = float(input("Qual o número de km rodados como o carro?\n"))
 
+    ValorTotal = dias*60 + km*0.15
+
+    print("O valor total do aluguel foi de R$ ", ValorTotal)
 
     
 if __name__ == '__main__':
